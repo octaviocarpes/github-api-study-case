@@ -37,6 +37,6 @@ module.exports = {
 			'error',
 			'never'
 		],
-		'object-curly-spacing': ['error', 'never']
+		'object-curly-spacing': ['error', 'always']
 	}
 }

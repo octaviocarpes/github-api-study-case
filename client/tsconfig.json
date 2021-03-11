@@ -1,16 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@components/*": ["./src/components/*"],
-      "@graphql/*": ["./src/graphql/*"],
-      "@hooks/*": ["./src/hooks/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@locale/*": ["./src/locale/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@store/*": ["./src/store/*"],
-      "@static/*": ["./src/static/*"],
-    },
     "target": "es5",
     "lib": [
       "dom",

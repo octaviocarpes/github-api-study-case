@@ -1,13 +1,14 @@
-import React, {ReactElement, PropsWithChildren} from 'react'
+import React, { ReactElement, PropsWithChildren } from 'react'
+import { HomeLayout } from '../layouts/HomePage'
 
 interface PropTypes {
     children?: ReactElement
 }
 
-const Component: React.FC<PropTypes> = (props: PropsWithChildren<any>) => {
-    return (
-        <h1>Hello world</h1>
-    )
+const Home: React.FC<PropTypes> = (props: PropsWithChildren<any>) => {
+	return (
+		<HomeLayout />
+	)
 }
 
-export default Component
+export default Home

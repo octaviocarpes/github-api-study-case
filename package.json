@@ -1,0 +1,15 @@
+{
+  "name": "github-api-study-case",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:octaviocarpes/github-api-study-case.git",
+  "author": "octaviocarpes <octavio.carpes10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"cd client && yarn dev\" \"cd server && yarn dev\""
+  },
+  "dependencies": {}
+}
